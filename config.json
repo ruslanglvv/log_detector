@@ -1,0 +1,15 @@
+{
+    "BRUTE_FORCE_THRESHOLD": 3,
+    "TIME_WINDOW_MINUTES": 5,
+    "SSH_LOG": "logs/ssh.log",
+    "WEB_LOG": "logs/web.log",
+    "ALERT_LOG_FILE": "alerts.log",
+    "JSON_REPORT_FILE": "report.json",
+
+    "CRITICALITY_LEVELS": {
+        "SSH Brute-force": "HIGH",
+        "SQL Injection": "HIGH",
+        "Path Traversal": "MEDIUM",
+        "XSS": "LOW"
+    }
+}

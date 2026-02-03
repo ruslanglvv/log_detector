@@ -1,0 +1,30 @@
+[
+    {
+        "time": "2026-02-03T20:20:00.237201",
+        "ip": "192.168.1.10",
+        "type": "SSH Brute-force",
+        "criticality": "HIGH",
+        "message": "\u001b[91m[SSH Brute-force | HIGH] Possible brute-force from IP 192.168.1.10 (3 failed attempts in 5 min)\u001b[0m"
+    },
+    {
+        "time": "2026-02-03T20:20:00.237602",
+        "ip": "192.168.1.15",
+        "type": "SQL Injection",
+        "criticality": "HIGH",
+        "message": "\u001b[91m[SQL Injection | HIGH] SQL Injection attempt: 192.168.1.15 - - [03/Feb/2026:14:15:01 +0000] \"GET /index.php?id=1' OR '1'='1 HTTP/1.1\" 200\u001b[0m"
+    },
+    {
+        "time": "2026-02-03T20:20:00.237722",
+        "ip": "192.168.1.16",
+        "type": "Path Traversal",
+        "criticality": "MEDIUM",
+        "message": "\u001b[93m[Path Traversal | MEDIUM] Path Traversal attempt: 192.168.1.16 - - [03/Feb/2026:14:16:01 +0000] \"GET /../../etc/passwd HTTP/1.1\" 404\u001b[0m"
+    },
+    {
+        "time": "2026-02-03T20:20:00.237741",
+        "ip": "192.168.1.18",
+        "type": "XSS",
+        "criticality": "LOW",
+        "message": "\u001b[92m[XSS | LOW] XSS attempt: 192.168.1.18 - - [03/Feb/2026:14:18:01 +0000] \"GET /search?q=<script>alert(1)</script> HTTP/1.1\" 200\u001b[0m"
+    }
+]
