@@ -19,7 +19,6 @@ This project demonstrates skills in:
 
 ### 🔐 SSH
 
-  -----------------------------------------------------------------------
   Attack                   Description
   ------------------------ ----------------------------------------------
   **Brute-force**          Multiple failed login attempts from the same
@@ -126,12 +125,6 @@ python detector.py
 python detector.py --ssh /var/log/auth.log --web /var/log/nginx/access.log
 ```
 
-### Summary-only mode (no alerts, just statistics)
-
-``` bash
-python detector.py --summary
-```
-
 ------------------------------------------------------------------------
 
 ## 🖥️ Example Output
@@ -198,15 +191,6 @@ detection tool and demonstrates:
 ✔ Basic attack detection techniques\
 ✔ Handling and correlating security events\
 ✔ Preparing structured data for SOC/SIEM workflows
-
-------------------------------------------------------------------------
-
-## 🚀 Possible Future Improvements
-
--   CSV export\
--   Telegram/Slack alerting\
--   GeoIP enrichment (attacker country)\
--   Attack frequency visualization
 
 ------------------------------------------------------------------------
 
