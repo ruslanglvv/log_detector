@@ -192,7 +192,3 @@ detection tool and demonstrates:
 ✔ Handling and correlating security events\
 ✔ Preparing structured data for SOC/SIEM workflows
 
-------------------------------------------------------------------------
-
-This project is designed as a hands-on learning exercise for aspiring
-**Junior SOC Analysts** and cybersecurity beginners.
